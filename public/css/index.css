@@ -1,0 +1,78 @@
+/* メインビジュアル */
+.main_display {
+    margin: 0;
+    color: white;
+    height: 100vh;
+    background:url("../img/index/main.jpg") no-repeat;
+    background-position: 65% center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    opacity: 0.9;
+}
+.explain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/index/paper.png");
+    background-size: cover;
+}
+.explain p {
+    font-size: 1.2rem;
+    display: block;
+    line-height: 200%;
+    margin: 0;
+    padding: 2rem;
+}
+/* メインコンテンツ */
+.main-content {
+    color: white;
+    text-align: center;
+}
+.main-content .card {
+    background: #000026;
+}
+/* サブコンテンツ */
+.card-extends {
+    background-image: url("../img/index/paper.png");
+    background-size: cover;
+    border: none;
+}
+.news {
+    background-image: url("../img/index/paper.png");
+    background-size: cover;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.media-extends {
+    margin: 2% 0;
+    padding: 1% 0;
+    border-top: 1px solid ;
+    border-bottom: 1px solid;
+    border-color:  rgb(165, 165, 165);
+}
+
+.map {
+    background-image: url("../img/index/paper.png");
+    background-size: cover;
+    text-align: center;
+}
+.google-map {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+.google-map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0px auto;
+}

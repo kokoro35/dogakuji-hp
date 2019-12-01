@@ -1,0 +1,92 @@
+/* --共通部品-- */
+@media (max-width: 768px) {
+    .main_display h1 {
+        font-size: 1.0rem;
+        line-height: 1.5rem;
+    }
+    .gray h1 {
+        font-size: 2.0rem;
+    }
+    .ft-address h1 {
+        font-size: 1.2rem;
+    }
+    /* スマホ以下だとTELリンク非表示 */
+    a[href^="tel:"] {
+        pointer-events: none;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991.98px) {
+    .main_display h1 {
+        font-size: 2.0rem;
+        line-height: 3.0rem;
+    }
+    .gray h1 {
+        font-size: 2.2rem;
+    }
+    .tile-thumbnail {
+        width: 80%;
+    }
+    .ft-address h1 {
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .main_display h1 {
+        font-size: 2.2rem;
+        line-height: 3.0rem;
+    }
+    .gray h1 {
+        font-size: 3.0rem;
+    }
+    .tile {
+        padding: 0;
+    }
+    .tile-thumbnail {
+        width: auto;
+		height: auto;
+		max-width: 100%;
+		max-height: 100%;
+    }
+    .ft-address h1 {
+        font-size: 1.5rem;
+    }
+}
+
+body {
+    font-family: "游明朝", "YuMincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+    background-image: url("../img/index/paper.png");
+    background-size: cover;
+    font-size: 1.2rem;
+}
+
+#Navber {
+    font-size: 1.0rem;
+}
+.logo{
+    text-align: center;
+}
+.logo a {
+    font-size: 1.0rem;
+}
+.font-sm{
+    font-size: 0.7rem;
+}
+
+/* --footer部品-- */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+}
+.ft-address {
+    padding-top: 1%;
+    display: inline-block;
+    text-align: left;
+}
+.ft-copyright {
+    margin-top: 1%;
+    padding-bottom: 0.2%;
+}

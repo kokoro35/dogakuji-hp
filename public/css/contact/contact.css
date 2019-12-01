@@ -1,0 +1,20 @@
+.form-container {
+    margin-top: 7rem;
+}
+.gfrom {
+    margin-bottom: 1rem;
+}
+.form-comment {
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+.gform-btn {
+    margin-bottom: 1rem;
+}
+.gform-textarea {
+    line-height: 1.5rem;
+}
+
+.result{
+    display: none;
+}
